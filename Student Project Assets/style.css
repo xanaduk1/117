@@ -1,0 +1,32 @@
+body
+{
+    background-color: rgb(81, 129, 163);
+}
+
+.Score 
+{
+    font-size: large;
+    margin: left 50px;
+}
+
+.Timer
+{
+    font-size: large;
+    float: right 50px;
+}
+
+.Sketch-to-be-drawn
+{
+    color: black;
+
+}
+
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
